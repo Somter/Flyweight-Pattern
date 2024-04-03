@@ -157,7 +157,7 @@ int main()
 		latitude += 0.1;
 	}
 	cout << "\n";	
-	for (int i = 0; i < 5; i++)
+	for (int i = 0; i < 5; i++) 
 	{
 		Base*transportBase = baseFactory->GetBase("transport");				
 		if (transportBase != nullptr)		
